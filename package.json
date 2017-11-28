@@ -23,6 +23,10 @@
     "name": "Dennis Stockhofe",
     "email": "d.stockhofe@shopmacher.de"
   }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SHOPMACHER/sm-equalize"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
