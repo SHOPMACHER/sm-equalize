@@ -1,11 +1,10 @@
 {
   "name": "@shopmacher/equalize",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Equalization library to adjust height of DOM elements",
   "main": "lib/equalize.js",
   "jsnext:main": "lib/equalize.js",
   "module": "lib/equalize.js",
-  "browserslist": "last 2 versions, ie 11",
   "scripts": {
     "start": "webpack-dev-server --config webpack/dev.js",
     "build": "webpack -p --config webpack/prod.js",
