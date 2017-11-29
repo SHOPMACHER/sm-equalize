@@ -1,6 +1,6 @@
 {
   "name": "@shopmacher/equalize",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Equalization library to adjust height of DOM elements",
   "main": "lib/equalize.js",
   "jsnext:main": "lib/equalize.js",

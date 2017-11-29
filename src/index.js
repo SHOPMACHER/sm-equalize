@@ -24,10 +24,10 @@ const equalize = (group) => {
  * Initializes the equalizer based on a DOM root node and groups the respective elements by their given
  * data-equalize value.
  *
- * @param resetElements Resets the height to initial height
  * @param $root Root element to start equalizing from
+ * @param resetElements Resets the height to initial height
  */
-const init = (resetElements = false, $root = document) => {
+const init = ($root = document, resetElements = false) => {
     const $elements = $root.querySelectorAll('[data-equalize]');
     const groups = Array.prototype.reduce.call($elements, (result, $element) => {
         const key = $element.getAttribute('data-equalize');
