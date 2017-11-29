@@ -1,6 +1,6 @@
 {
   "name": "@shopmacher/equalize",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Equalization library to adjust height of DOM elements",
   "main": "lib/equalize.js",
   "jsnext:main": "lib/equalize.js",
@@ -40,5 +40,8 @@
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.5",
     "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
   }
 }
