@@ -29,7 +29,9 @@ const equalize = (group) => {
  */
 const init = ($root = document, resetElements = false) => {
     const $elements = $root.querySelectorAll('[data-equalize]');
-    const groups = Array.prototype.reduce.call($elements, (result, $element) => {
+    const elementsArray = Array.prototype.slice.call($elements, 0).reverse();
+
+    const groups = elementsArray.reduce((result, $element) => {
         const key = $element.getAttribute('data-equalize');
 
         result[key] = has.call(result, key)
